@@ -5,12 +5,12 @@
 #include <NTPClient.h>
 
 // WiFi bilgileri
-#define WIFI_SSID "qrcodewifi"
-#define WIFI_PASSWORD "samsun0011"
+#define WIFI_SSID "WIFI SSID"
+#define WIFI_PASSWORD "WIFI PASSWORD"
 
 // Firebase bilgileri
-#define DATABASE_URL "https://qr-yoklama-sistemi-e9f4e-default-rtdb.europe-west1.firebasedatabase.app/"
-#define DATABASE_SECRET "bQCIP2PVlxCEph1gxoBb5QdNhW8htc2K0vaoDRRP"
+#define DATABASE_URL "YOUR DATABASE URL"
+#define DATABASE_SECRET "YOUR CODE"
 
 // Buzzer pin
 #define BUZZER_PIN 3
@@ -133,7 +133,7 @@ void loop() {
       if (Firebase.setJSON(fbdo, path, veri)) {
         Serial.println("Yoklama başarıyla kaydedildi!");
 
-        // BUZZER'ı 1 saniye çalıştır
+        
         digitalWrite(BUZZER_PIN, HIGH);
         delay(1000);
         digitalWrite(BUZZER_PIN, LOW);
