@@ -1,0 +1,43 @@
+name: qr_scanner
+description: "qr kodlu yoklama sistemi mobil uygulama"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  qr_flutter: ^4.0.0
+  logging: ^1.0.2
+
+  # Firebase paketleri
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.0
+  firebase_database: ^10.5.0
+
+  # İkonlar ve diğer
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.3.6
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/splash.png
+  fullscreen: true
+  android_gravity: center
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "509282603787",
+    "firebase_url": "https://qr-yoklama-sistemi-e9f4e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "qr-yoklama-sistemi-e9f4e",
+    "storage_bucket": "qr-yoklama-sistemi-e9f4e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509282603787:android:560439508f6a5c0e32c80e",
+        "android_client_info": {
+          "package_name": "com.metinalptekin.yoklama.qr_scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOKJ7swDd1OM5B-13_-yovALKLRlGKbr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
