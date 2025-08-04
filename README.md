@@ -5,7 +5,9 @@ This project was developed as a Graduation Project at Ordu University - Computer
  Technologies Used: Flutter, Kotlin, Firebase, ESP32-CAM, Arduino, QR Code, IoT
 
  The system has two separate user interfaces:
+
 • Teacher Panel: Create courses/sessions, monitor attendance
+
 • Student Panel: Generate personal QR code, attend class
 
  QR codes are unique for each student and only valid during the defined session time.
