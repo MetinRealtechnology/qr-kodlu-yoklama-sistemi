@@ -24,9 +24,9 @@ Yoklama, yalnızca QR kodunun geçerli olduğu oturum saatinde ve sınıf içeri
 Kullanılan Teknolojiler
 Mobil Uygulama Geliştirme:
 
-Flutter (Öğrenci tarafı UI ve logic)
+Flutter
 
-Kotlin (Öğretmen uygulaması veya Android tarafı işlemler)
+Kotlin 
 
 Veri Tabanı ve Backend:
 
@@ -34,13 +34,13 @@ Firebase Realtime Database
 
 Firebase Authentication
 
-Firebase Cloud Storage (varsa fotoğraf/video yedekleri)
+Firebase Cloud Storage 
 
 Donanım (IoT):
 
 ESP32-CAM (Arduino tabanlı kamera modülü)
 
-QR kod okuma algoritması (OpenCV veya Firebase SDK destekli)
+QR kod okuma algoritması (Firebase SDK destekli)
 
 Proje Amaçları ve Katkıları
 -> Yoklama işlemini dijitalleştirme: Manuel olarak liste doldurma ya da çağırma gibi işlemler ortadan kalkar.
